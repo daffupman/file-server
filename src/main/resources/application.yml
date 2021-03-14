@@ -1,0 +1,11 @@
+server:
+    port: 10090
+    servlet:
+        context-path: /files
+spring:
+    application:
+        name: files
+fdfs:
+    connect-timeout: 30               # 连接的超时时间
+    so-timeout: 30                    # 读取的超时时间
+    tracker-list: 192.168.65.20:22122 # tracker服务
